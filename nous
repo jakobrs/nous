@@ -101,3 +101,16 @@ xkb_symbols "nodeadkeys" { // NOT CONVERTED TO NUSS
 	key <AB09>	{ [	period,		colon,		periodcentered,	abovedot 	]};
 };
 
+partial alphanumeric_keys
+xkb_symbols "uk" {
+	include "nous(basic)"
+
+	name[Group1]="NorwegianUK";
+
+	key <AE02>		{[	2,		quotedbl,	2,		2		]};
+
+	key <AC11>		{[	apostrophe,	at,		ae,		AE		]};
+	key <BKSL>		{[	numbersign,	asciitilde,	dead_acute,	dead_grave	]};
+
+	key <LSGT>		{[	backslash,	bar,		period,		period		]}; // between SHIFT and Z
+};
