@@ -107,6 +107,8 @@ xkb_symbols "uk" {
 
 	name[Group1]="NorwegianUK";
 
+	key <TLDE>		{[	grave,		notsign,	brokenbar,	paragraph	]};
+
 	key <AE02>		{[	2,		quotedbl,	2,		2		]};
 
 	key <AC11>		{[	apostrophe,	at,		ae,		AE		]};
