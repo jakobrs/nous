@@ -34,8 +34,8 @@ xkb_symbols "basic" {
 	key <AE07>	{[	7,		ampersand,	division,	7		]};
 	key <AE08>	{[	8,		asterisk,	multiply,	8		]};
 	key <AE09>	{[	9,		parenleft,	9,		9		]};
-	key <AE10>	{[	0,		parenright,	0,		0		]};
-	key <AE11>	{[	minus,		underscore,	emdash,		1		]};
+	key <AE10>	{[	0,		parenright,	notequal,		emptyset		]};
+	key <AE11>	{[	minus,		underscore,	emdash,		approxeq		]};
 	key <AE12>	{[	equals,		plus,		plusminus,	0x1002213	]};
 
 	key <AD01>	{[	q,		Q,		0x100211a,	0x100211d	]};
@@ -58,8 +58,8 @@ xkb_symbols "basic" {
 	key <AC05>	{[	g,		G,		Greek_gamma,	Greek_GAMMA	]};
 	key <AC06>	{[	h,		H,		leftarrow,	leftarrow	]};
 	key <AC07>	{[	j,		J,		downarrow,	downarrow	]};
-	key <AC08>	{[	k,		K,		uparrow,	uparrow		]};
-	key <AC09>	{[	l,		L,		rightarrow,	rightarrow	]};
+	key <AC08>	{[	k,		K,		uparrow,	ifonlyif		]};
+	key <AC09>	{[	l,		L,		rightarrow,	implies	]};
 	key <AC10>	{[	semicolon,	colon,		oslash,		Oslash		]};
 	key <AC11>	{[	apostrophe,	quotedbl,	ae,		AE		]};
 	key <BKSL>	{[	backslash,	bar,		dead_acute,	dead_grave	]};
@@ -71,8 +71,8 @@ xkb_symbols "basic" {
 	key <AB05>	{[	b,		B,		Greek_beta,	Greek_BETA	]};
 	key <AB06>	{[	n,		N,		0x1002115,	no		]};
 	key <AB07>	{[	m,		M,		0x10000B5,	0x100210E	]};
-	key <AB08>	{[	comma,		less,		comma,		less		]};
-	key <AB09>	{[	period,		greater,	period,		greater		]};
+	key <AB08>	{[	comma,		less,		comma,		lessthanequal		]};
+	key <AB09>	{[	period,		greater,	period,		greaterthanequal		]};
 	key <AB10>	{[	slash,		question,	slash,		question	]};
 
 	key <LSGT>	{[	period,		period,		period,		period		]}; // between SHIFT and Z
@@ -114,5 +114,5 @@ xkb_symbols "uk" {
 	key <AC11>		{[	apostrophe,	at,		ae,		AE		]};
 	key <BKSL>		{[	numbersign,	asciitilde,	dead_acute,	dead_grave	]};
 
-	key <LSGT>		{[	backslash,	bar,		period,		period		]}; // between SHIFT and Z
+	key <LSGT>		{[	backslash,	bar,		0x10022A5,		0x10022A4		]}; // between SHIFT and Z
 };
