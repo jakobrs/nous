@@ -36,7 +36,7 @@ xkb_symbols "basic" {
 	key <AE09>	{[	9,		parenleft,	9,		9		]};
 	key <AE10>	{[	0,		parenright,	notequal,		emptyset		]};
 	key <AE11>	{[	minus,		underscore,	emdash,		approxeq		]};
-	key <AE12>	{[	equals,		plus,		plusminus,	0x1002213	]};
+	key <AE12>	{[	equals,		plus,		plusminus,	identical	]};
 
 	key <AD01>	{[	q,		Q,		0x100211a,	0x100211d	]};
 	key <AD02>	{[	w,		W,		Greek_omega,	Greek_OMEGA	]};
