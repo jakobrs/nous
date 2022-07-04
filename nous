@@ -32,8 +32,8 @@ xkb_symbols "basic" {
 	key <AE05>	{[	5,		percent,	0x1002030,	5		]};
 	key <AE06>	{[	6,		asciicircum,	6,		6		]};
 	key <AE07>	{[	7,		ampersand,	division,	7		]};
-	key <AE08>	{[	8,		asterisk,	multiply,	8		]};
-	key <AE09>	{[	9,		parenleft,	9,		9		]};
+	key <AE08>	{[	8,		asterisk,	multiply,	dead_greek		]};
+	key <AE09>	{[	9,		parenleft,	9,		dead_currency		]};
 	key <AE10>	{[	0,		parenright,	notequal,		emptyset		]};
 	key <AE11>	{[	minus,		underscore,	emdash,		approxeq		]};
 	key <AE12>	{[	equals,		plus,		plusminus,	identical	]};
