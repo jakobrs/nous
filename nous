@@ -28,7 +28,7 @@ xkb_symbols "basic" {
 	key <AE01>	{[	1,		exclam,		1,		1		]};
 	key <AE02>	{[	2,		at,		2,		2		]};
 	key <AE03>	{[	3,		numbersign,	sterling,	3		]};
-	key <AE04>	{[	4,		dollar,		cent,		4		]};
+	key <AE04>	{[	4,		dollar,		cent,		0x100207A		]};
 	key <AE05>	{[	5,		percent,	0x1002030,	5		]};
 	key <AE06>	{[	6,		asciicircum,	6,		6		]};
 	key <AE07>	{[	7,		ampersand,	division,	7		]};
