@@ -56,7 +56,7 @@ xkb_symbols "basic" {
 	key <AC03>	{[	d,		D,		Greek_delta,	Greek_DELTA	]};
 	key <AC04>	{[	f,		F,		0x100017F,		F		]};
 	key <AC05>	{[	g,		G,		Greek_gamma,	Greek_GAMMA	]};
-	key <AC06>	{[	h,		H,		leftarrow,	leftarrow	]};
+	key <AC06>	{[	h,		H,		leftarrow,	0x100A4F7	]};
 	key <AC07>	{[	j,		J,		downarrow,	downarrow	]};
 	key <AC08>	{[	k,		K,		uparrow,	ifonlyif		]};
 	key <AC09>	{[	l,		L,		rightarrow,	implies	]};
