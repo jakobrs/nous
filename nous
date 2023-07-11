@@ -43,9 +43,9 @@ xkb_symbols "basic" {
 	key <AD03>	{[	e,		E,		euro,		elementof		]};
 	key <AD04>	{[	r,		R,		registered,	trademark	]};
 	key <AD05>	{[	t,		T,		Greek_tau,	Greek_TAU	]};
-	key <AD06>	{[	y,		Y,		0x1000296,	0x100035C	]};
-	key <AD07>	{[	u,		U,		0x10030C4,	0x1003064	]};
-	key <AD08>	{[	i,		I,		0x100221A,	0x100221A	]};
+	key <AD06>	{[	y,		Y,		0x1002605,	0x100035C	]};
+	key <AD07>	{[	u,		U,		0x10030DF,	0x1003064	]};
+	key <AD08>	{[	i,		I,		0x10030C4,	0x100221A	]};
 	key <AD09>	{[	o,		O,		Greek_theta,	Greek_THETA	]};
 	key <AD10>	{[	p,		P,		Greek_pi,	Greek_PI	]};
 	key <AD11>	{[	bracketleft,	braceleft,	aring,		Aring		]};
